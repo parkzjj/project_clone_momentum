@@ -9,8 +9,7 @@
   </head>
   <body>
     <h1 class="today-color">
-      <div>What is your today's mood?</div>
-      <div>Express it!</div>
+      <div>Express your today's color!</div>
       <div>
         <label for="color1">Color1</label>
         <input class="color1" type="color" name="color1" value="#4FDCF8" />
@@ -20,7 +19,9 @@
         <input class="color2" type="color" name="color2" value="#D8EBBD" />
       </div>
       <div class="arrowkeys">
-        <button class="arrow_top"><i class="fa-solid fa-arrow-up"></i></button>
+        <button class="arrow_top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
         <button class="arrow_bottom">
           <i class="fa-solid fa-arrow-down"></i>
         </button>
@@ -31,8 +32,24 @@
           <i class="fa-solid fa-arrow-right"></i>
         </button>
       </div>
+      <div id="weather"></div>
     </h1>
-    <script src="background.js"></script>
+    <h2 class="clock"></h2>
+    <div class="centerofmiddle">
+      <form class="hidden" id="login-form">
+        <input required type="text" placeholder="What is your dream?" />
+        <input type="submit" value="Log In" />
+      </form>
+    </div>
+    <h2 id="greeting" class="hidden"></h2>
+    <h3>
+      <div class="middle">Love yourself</div>
+      <div class="middle">You are the only one!</div>
+    </h3>
+    <script src="js/background.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/greetings.js"></script>
     <script
       src="https://kit.fontawesome.com/d5c0016466.js"
       crossorigin="anonymous"

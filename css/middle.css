@@ -1,0 +1,26 @@
+h2 {
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+
+h3 {
+    /* height: 30vh; */
+    font-size: 30px;
+    margin-top: -50px;
+}
+
+.middle {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.centerofmiddle {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
